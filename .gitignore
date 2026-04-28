@@ -1,0 +1,98 @@
+.ftpignore
+.ftpconfig
+# .vscode
+/.pdfenv
+.pdfenv/
+# Byte-compiled / optimized / DLL files
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+*.swp
+*.zip
+/paper
+paper/
+/data
+/logs
+/pretrained
+/interact
+/pretrain_src/datasets
+/pretrain_src/img_features
+/bert-base-uncased
+*.bin
+/extra_files
+VLM_bash_run/
+/VLM_bash_run
+/habitat-sim
+/habitat-lab
+__pycache__/
+# --- 虚拟环境 ---
+venv/
+env/
+.venv/
+transfer_staging/
+# --- IDE 配置 (不需要上传到服务器) ---
+# .vscode/
+.idea/
+
+# --- 数据集 (这是造成 10000+ 更改的主要原因) ---
+data/
+datasets/
+# 如果你的数据在特定的其他文件夹，请把名字写在这里
+
+# --- 训练输出和模型权重 ---
+checkpoints/
+Qwen3-VL-2B-Thinking/
+Qwen3-VL-32B-Thinking/
+Qwen3-VL-2B-Instruct/
+Qwen3-VL-8B-Instruct/
+/Qwen3-VL-8B-Instruct
+Qwen3-VL-4B-Instruct/
+/Qwen3-VL-4B-Instruct
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.ckpt
+# --- 日志文件 ---
+logs/
+runs/
+# *.log
+output/
+results/
+outputs/
+
+# 忽略所有数据集和数据文件
+data/
+data/datasets/
+VLM_bash_run/
+# 忽略常见的压缩大文件（作为双重保险）
+*.gz
+*.zip
+*.tar
+*.pkl
+*.h5
+*.pth
+*.bin
+*.pt
+*.hdf5
+*.ckpt
+*.pkl
+# *.json
+# *.jsonl
+
+
+*_connectivity.json
+
+*.ply
+*.obj
+*.model
+
+paper/
+outputs_full/
+
+*.pdf

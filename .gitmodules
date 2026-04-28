@@ -1,0 +1,9 @@
+[submodule "external/VLM_change"]
+	path = external/VLM_change
+	url = https://github.com/zjuer-dm/VLM_change.git
+[submodule "external/ETP-R1"]
+	path = external/ETP-R1
+	url = https://github.com/Cepillar/ETP-R1.git
+[submodule "external/Taga-VLM"]
+	path = external/Taga-VLM
+	url = https://github.com/APEX-BJUT/Taga-VLM.git
